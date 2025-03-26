@@ -1,0 +1,71 @@
+body{
+    font-size: 18px;
+    font-family: "Bai Jamjuree", sans-serif
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 30px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/bg-header-desktop.png);
+    background-size:cover ;
+}
+.top{
+    text-align: center;
+    padding: 10px 0;
+    width: 40%;
+}
+
+.top h1{
+    color: var(--Dark-Grayish-Blue--);
+    padding: 5px 0;
+    font-weight: 700;
+}
+.top p{
+    color: var(--Grayish-Blue--);
+
+}
+
+.button{
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.button button{
+    padding: 15px 25px;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #ffff;
+    margin: 0 10px;
+}
+
+.button button.ios{
+    background-color: var(--Strong-Cyan--);
+    box-shadow: 2px 2px 8px hsl(171, 66%, 44%), 2px 2px 2px hsl(171, 66%, 44%);
+    transition: box-shadow 0.3s ease
+}
+
+.button button.mac{
+    background-color: var(--Light-Blue--);
+    box-shadow: 2px 2px 8px hsl(233, 100%, 69%), 2px 2px 2px hsl(233, 100%, 69%);
+    transition: box-shadow 0.2s ease
+}
+
+.button button.ios:hover{
+    cursor: pointer;
+    box-shadow: hsl(171, 66%, 44%) 0px 7px 25px 0px;
+    opacity: 0.8;
+}
+
+.button button.mac:hover{
+    cursor: pointer;
+    box-shadow:hsl(233, 100%, 69%) 0px 7px 25px 0px;
+    opacity: 0.8;
+}
