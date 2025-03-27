@@ -213,7 +213,6 @@ header{
 .clipboard{
     margin-top: 7rem;
     text-align: center;
-    border: 1px solid red;
 }
 
 .clipboard h2{
@@ -226,4 +225,46 @@ header{
     margin: 0 auto;
     line-height: 30px;
     width: 30%;
+}
+
+footer{
+    margin-top: 8rem;
+    background: #F5F6F8;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer ul{
+    list-style-type: none;
+    list-style: #fff;
+}
+
+.faqs li, .pp li{
+    margin-bottom: 20px;
+}
+.faqs li a, .pp li a, .Install li a {
+    color: var(--Dark-Grayish-Blue--);
+}
+
+.faqs li a:hover, .pp li a:hover, .Install li a:hover{
+    color: var(--Strong-Cyan--);
+}
+
+.logo img{
+    width: 100px;
+}
+
+.iconredes{
+    display: inline-block;
+}
+
+.iconredes{
+    display:flex;
+    flex-direction: row;
+}
+
+.iconredes img{
+    margin: 10px;
 }
