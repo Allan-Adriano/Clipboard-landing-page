@@ -122,7 +122,6 @@ header{
     font-weight: 600;
     color: var(--Dark-Grayish-Blue--);
     margin-bottom: 1rem;
-    
 }
 
 .two .texts p{
@@ -172,7 +171,7 @@ header{
     font-size: 20px;
     color: var(--Grayish-Blue--);
 }
-.card-fother{
+.card-father{
     display: flex;
     justify-content: center;
     align-items: center;
